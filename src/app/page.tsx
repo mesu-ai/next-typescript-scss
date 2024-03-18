@@ -11,14 +11,14 @@ export default function Home() {
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            By{" "}
+            By{' '}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src='/vercel.svg'
+              alt='Vercel Logo'
               className={styles.vercelLogo}
               width={100}
               height={24}
@@ -27,19 +27,30 @@ export default function Home() {
           </a>
         </div>
       </div>
+      <p>
+        The indented syntax was Sass’s original syntax, and so it uses the file
+        extension .sass. Because of this extension, it’s sometimes just called
+        "Sass". The indented syntax supports all the same features as SCSS, but
+        it uses indentation instead of curly braces and semicolons to describe
+        the format of the document. In general, any time you’d write curly
+        braces in CSS or SCSS, you can just indent one level deeper in the
+        indented syntax. And any time a line ends, that counts as a semicolon.
+        There are also a few additional differences in the indented syntax that
+        are noted throughout the reference.
+      </p>
 
       <div className={styles.center}>
-        <Image
+        {/* <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
           width={180}
           height={37}
           priority
-        />
+        /> */}
       </div>
 
-      <div className={styles.grid}>
+     {/*  <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
@@ -89,7 +100,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
