@@ -28,12 +28,7 @@ export default function Home() {
         </div>
       </div>
       <p>
-        The indented syntax was Sass’s original syntax, and so it uses the file
-        extension .sass. Because of this extension, it’s sometimes just called
-        "Sass". The indented syntax supports all the same features as SCSS, but
-        it uses indentation instead of curly braces and semicolons to describe
-        the format of the document. In general, any time you’d write curly
-        braces in CSS or SCSS, you can just indent one level deeper in the
+        The braces in CSS or SCSS, you can just indent one level deeper in the
         indented syntax. And any time a line ends, that counts as a semicolon.
         There are also a few additional differences in the indented syntax that
         are noted throughout the reference.
